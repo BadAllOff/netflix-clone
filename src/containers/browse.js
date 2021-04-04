@@ -109,7 +109,6 @@ export function BrowseContainer({ slides }) {
           </Card>
         ))}
       </Card.Group>
-
       <FooterContainer />
     </>
   ) : (
