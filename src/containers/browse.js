@@ -89,7 +89,7 @@ export function BrowseContainer({ slides }) {
         </Header.Feature>
       </Header>
 
-      <Card.Group>
+      <Card.Group alignItems="center">
         {slideRows.map((slideItem) => (
           <Card key={`${category}-${slideItem.title.toLowerCase()}`}>
             <Card.Title>{slideItem.title}</Card.Title>
@@ -106,6 +106,9 @@ export function BrowseContainer({ slides }) {
                 </Card.Item>
               ))}
             </Card.Entities>
+            <Card.Feature category={category}>
+              <p>I am the feature!</p>
+            </Card.Feature>
           </Card>
         ))}
       </Card.Group>
