@@ -179,7 +179,7 @@ export const FeatureClose = styled.button`
   }
 `;
 
-export const Content = styled.p`
+export const Content = styled.div`
   margin: 56px;
   max-width: 500px;
   line-height: normal;
