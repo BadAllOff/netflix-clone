@@ -2,6 +2,9 @@
 
 ### Challanging my React skills
 
-build used Compound Component
+- Large React Based Architectures
+- Styled Components
+- Compound Components
+- Firebase (Firestore & Auth)
 
-<sup>under construction...</sup>
+![Image of Users profile](public/images/netflix.png)
