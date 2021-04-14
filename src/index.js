@@ -17,7 +17,7 @@ const firebase = window.firebase.initializeApp(config);
 
 ReactDOM.render(
   <React.StrictMode>
-    <FirebaseContext.Provider value={{ firebase: window.firebase }}>
+    <FirebaseContext.Provider value={{ firebase: firebase }}>
       <GlobalStyles />
       <App />
     </FirebaseContext.Provider>
